@@ -1,9 +1,9 @@
 {
-  "name": "ts-sandbox",
+  "name": "memo-game",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AlvaroLF92.github.io/Memo-Game",
+  "homepage": "https://AlvaroLF92.github.io/memo-game",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
