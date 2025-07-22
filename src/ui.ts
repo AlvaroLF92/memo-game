@@ -1,5 +1,5 @@
 import { DatosCarta, Tablero } from "./model";
-
+import backImage from './assets/pngs/0.png';
 export const referenciasHtml = {
   contenedoresCartas: document.querySelectorAll(".card-container"),
   botonIniciarPartida: document.getElementById("comenzar-partida"),
@@ -77,7 +77,7 @@ export const ponerBarajaEnDorso = (
 ): void => {
   contendoresCartas.forEach((div) => {
     const imagen = div.querySelector("img");
-    if (imagen) imagen.src = "./src/assets/pngs/0.png";
+    if (imagen) imagen.src = backImage;
   });
 };
 
