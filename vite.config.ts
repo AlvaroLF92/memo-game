@@ -10,7 +10,7 @@ const vitestConfig: VitestUserConfigInterface = {
 };
 
 export default defineConfig({
-  base: "/Memo-Game/",           
+  base: "/memo-game/",           
   plugins: [checker({ typescript: true })],
   test: vitestConfig.test,
 });
