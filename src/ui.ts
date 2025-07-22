@@ -99,8 +99,9 @@ export const voltearParejaNoCoincidente = (
     const imagenA = divA?.querySelector("img");
     const imagenB = divB?.querySelector("img");
     if (imagenA && imagenB) {
-      imagenA.src = "./src/assets/pngs/0.png";
-      imagenB.src = "./src/assets/pngs/0.png";
+      imagenA.src = backImage;
+      imagenB.src = backImage;
     }
   }, 750);
 };
+
